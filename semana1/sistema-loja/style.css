@@ -6,10 +6,9 @@ h2 {
     background-color: white;
     width: 500px;
 }
-#container-estoque {
-    background-color: rgb(100, 172, 240);
-}
-#container-home {
+
+
+.container-home {
     background-image: url("./images/patas1.png");
     background-repeat: repeat;
     background-attachment: scroll;
@@ -76,9 +75,83 @@ footer h3 {
 }
 #vendas {
   text-align: center;
-  color: red;}
+  color: rgb(5, 0, 12);
+  background-color: lightgrey;
+}
 .vendas1 {
     text-align: center;
+    font-weight: bold;
+    
+}
+#tabela-his {
+    
+    width: 800px;
+    text-align: left;
+    background-color: lightgrey;
+    font-weight: bold;
+    border: 2px solid black;
+}
+#historico {
+    display: block;
+    width: 800px;
+    margin: auto;
+  
 }
 
+#busca {
+    text-align: center;
+    height: 85vh;
+    font-weight: bold;
+}
+#controle-tabela {
+    text-align: left;   
+    border: 2px solid black;
+    width: 800px;
+    margin: 100px auto;
+
   
+}
+#controle-tabela th {
+    width: 200px;
+    background-color: lightgrey;
+    border: 2px solid black;
+    text-align: center;
+
+}
+#controle-tabela td {
+    border-bottom: 2px solid black;
+    background-color: lightgrey;
+    text-align: center;
+    font-weight: bold;
+}
+#formulario {
+    height: 100px;
+    font-weight: bold;
+   
+}
+#formulario label {
+    background-color: lightgrey;
+}
+#foto {
+    width: 600px;
+    height: 400px;
+    
+}
+#conteiner-foto {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 150px;
+   
+}
+#foto-venda img {
+    margin-top: 50px;
+}
+#func {
+    height: 520px;
+    font-size: 26px;
+}
+#fu {
+    width: 20px;
+}
+    
+
