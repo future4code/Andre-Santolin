@@ -7,6 +7,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2 {
@@ -19,6 +20,8 @@ h2 {
 input {
     height: 20px;
     width: 500px;
+    border: none;
+    border-bottom: 2px solid black;
 }
 
 button:focus {
@@ -30,8 +33,10 @@ img {
 }
 
 div>p:first-child {
-    display: inline;
+  display: inline;
+          
 }
+
 
 div img {
     background: black;
@@ -53,11 +58,14 @@ div img {
 
 .container {
     height: 300px;
-    text-align: center;
+    text-align: center; 
+      
 }
-
+   
 .icone {
     height: 15px;
+    background-color: white;
+    width: 25px;
 }
 
 
@@ -70,10 +78,15 @@ div img {
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
+    padding-top: 50px;
 }
 
-#container-de-descricao>ol {
-    padding:  50px;
+#container-de-descricao>ol {    
+    height: 30px;
+       
+}
+#tabe ol {
+    padding: 20px 570px 20px 570px;
 }
 
 #container-para-comprar {
@@ -82,13 +95,10 @@ div img {
 
 #container-para-comprar>p {
     color: #c44f00;
-    padding: 100px;
+    padding: 50px;
     font-size: 60px; 
-    display: block;
-
-    
-         
-    
+    display: block;   
+             
 }
 
 
@@ -114,6 +124,12 @@ td button {
     border-radius: 5px;
     color: black;
 }
+td button:hover {
+    background-color: #FFA500;
+}
+td button:active {
+    color: white;
+}
 
 .container-do-search {
     margin-top: 20px;
@@ -133,5 +149,21 @@ td button {
 }
 
 #back-button:hover {
-    background-color: #635a3d
+    background-color: gainsboro;
 }
+#tabela {
+    display: flex;
+    justify-content: center; 
+    text-align: center;        
+}
+#tabela:hover {
+    background-color: white;
+}
+
+#bt {
+    display: flex;
+    justify-content: center; 
+    margin-top: 50px; 
+}
+
+
