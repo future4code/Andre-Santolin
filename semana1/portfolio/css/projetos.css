@@ -1,0 +1,132 @@
+html{
+    background: url(./pc2.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#cabecalho {
+    text-align: center;
+    color:  rgb(250, 121, 0);
+    background-color: black;
+    margin: auto;
+    padding: 16px 16px 2px 16px;
+    font-family: 'Cinzel Decorative', cursive;
+    
+
+    
+}
+.links {
+
+    background-color: black;
+    text-align: right;
+    display: block;
+    padding-right: 200px;
+}
+#home{
+    color:  gray;
+    font-size: 22px;
+    padding: 0px 20px;
+    margin: 2px;
+    font-family: 'Indie Flower', cursive;
+
+}
+#projetos1 {
+    color:  gray;
+    font-size: 22px;
+    padding: 0px 20px;
+    margin: 2px;
+    font-family: 'Indie Flower', cursive;
+
+}
+#contato1 {
+    color:  gray;
+    font-size: 22px;
+    padding: 0px 20px;
+    margin: 2px;
+    font-family: 'Indie Flower', cursive;
+
+}
+#home:hover{
+    color: rgb(250, 121, 0);
+}
+#projetos1:hover {
+    color:  rgb(250, 121, 0);
+}
+#contato1:hover{
+    color:  rgb(250, 121, 0);
+}
+#mprojeto {
+    font-family: sans-serif, cursive;
+    color:  rgb(250, 121, 0);
+    font-size: 50px;
+    text-align: center;
+    
+}
+.transbox {
+    margin: 30px;
+    background-color: black;
+    border: 1px solid black;
+    height: 100%;
+    width: 95%;
+    position: relative;
+    opacity: 80%;
+}   
+#pai{
+    height: 100%;
+    width: 100%;
+}
+#selecao {
+    font-family: 'Boogaloo', cursive;
+    font-size: 26px;
+    color:  rgb(250, 121, 0);
+    margin-left: 130px;
+    margin-bottom: 5px;
+}
+#selecao:hover {
+    color: rgb(250, 121, 0);
+}
+#imglabenu {
+    border: 2px solid black;
+    height: 200px;
+    width: 330px;
+    margin-left: 70px;
+    margin-bottom: 350px;
+}
+#imglabenu:hover {
+    border: 2px solid  rgb(250, 121, 0);
+}
+#redes-sociais {
+    background-color: black;
+    color: blanchedalmond;
+    display: flex;
+    margin: 50px 0px 0px 0px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif, cursive;
+    align-items: center;
+}
+  i {  
+     font-size: 40px;
+     color:  rgb(250, 121, 0);
+     margin-left: 0px;
+}
+i:hover {
+    color: #70DBDB
+}
+.redes-s {
+    margin-left: 170px;
+    margin-right: 0px;
+}
+.num-email {
+    margin: 10px;
+}
+.icons{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.icons-1 a {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 3px;
+}
