@@ -1,0 +1,142 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    border: 1px solid black;
+}
+
+#first-block {
+    background-color: red;
+    display: grid;
+    grid-template-rows: 10vh;
+}
+
+.blue-block {
+    background-color: blue;
+    display: grid;
+    height: 100px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.yellow-block {
+    background-color: yellow;
+    display: grid;
+    height: 100px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-block {
+    background-color: green;
+    display: grid;
+    height: 100px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.black-block {
+    background-color: black;
+    color: white;
+    display: grid;
+    height: 350px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.white-block {
+    background-color: white;
+    display: grid;
+    height: 100px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+#cores {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:  50% 50%;
+    grid-auto-flow: row;  
+    border: 0;
+    margin-top: 5px;
+}
+#preto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 0;
+}
+#branco {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 0;
+}
+
+@media screen and (min-device-width : 421px) and (max-device-width : 800px) {
+
+    #cores{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr
+    }  
+    .blue-block{
+        display: grid;
+        grid-column: 1;
+    }  
+    .green-block{
+        display: grid;
+        grid-column: span 2;
+    }
+    #branco{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #ultima-caixa {
+        display: grid;
+        grid-column: span 2;
+    }
+    }
+
+    @media screen and (min-device-width : 320px) and (max-device-width : 420px) {
+
+        #cores{
+            display: grid;
+            grid-template-rows: repeat(6, 1fr);
+        }
+        .blue-block{
+            display: grid;
+            grid-column: span 3;
+        } 
+        .yellow-block{
+            display: grid;
+            grid-column: span 3;
+        }
+        .green-block{
+            display: grid;
+            grid-column: span 3;
+        }
+        #preto{
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+        }
+        .black-block{
+            display: grid;
+            grid-column: span 3;
+        }
+        #branco {
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+        .white-block{
+            display: grid;
+            grid-column: span 3;
+        }
+        }
