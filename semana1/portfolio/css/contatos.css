@@ -1,0 +1,70 @@
+html{
+    background: url(./pc2.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#cabecalho {
+    text-align: center;
+    color:  rgb(250, 121, 0);
+    background-color: black;
+    margin: auto;
+    padding: 16px 16px 2px 16px;
+    font-family: 'Cinzel Decorative', cursive;
+    
+
+    
+}
+.links {
+
+    background-color: black;
+    text-align: right;
+    display: block;
+    padding-right: 200px;
+}
+#home{
+    color: gray;
+    font-size: 22px;
+    padding: 0px 20px;
+    margin: 2px;
+    font-family: 'Indie Flower', cursive;
+
+}
+#projetos1 {
+    color: gray;
+    font-size: 22px;
+    padding: 0px 20px;
+    margin: 2px;
+    font-family: 'Indie Flower', cursive;
+
+}
+#contato1 {
+    color: gray;
+    font-size: 22px;
+    padding: 0px 20px;
+    margin: 2px;
+    font-family: 'Indie Flower', cursive;
+
+}
+#home:hover{
+    color: rgb(250, 121, 0);
+}
+#projetos1:hover{
+    color: rgb(250, 121, 0);
+}
+#contato1:hover{
+    color: rgb(250, 121, 0);
+}
+#redes-sociais {
+    margin: 50px 0px 0px 0px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: sans-serif, cursive;
+}
+  i {  
+     font-size: 40px;
+     color: rgb(250, 121, 0);
+}
+i:hover {
+    color: #70DBDB

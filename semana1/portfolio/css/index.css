@@ -1,0 +1,182 @@
+html{
+    background: url(./pc2.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#cabecalho {
+    text-align: center;
+    color:  rgb(250, 121, 0);
+    background-color: black;
+    margin: auto;
+    padding: 16px 16px 2px 16px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.links {
+
+    background-color: black;
+    text-align: right;
+    display: block;
+    padding-right: 200px;
+}
+#home{
+    color: gray;
+    font-size: 22px;
+    padding: 0px 20px;
+    margin: 2px;
+    font-family: 'Indie Flower', cursive;
+
+}
+#projetos1 {
+    color: gray;
+    font-size: 22px;
+    padding: 0px 20px;
+    margin: 2px;
+    font-family: 'Indie Flower', cursive;
+
+}
+#contato1 {
+    color: gray;
+    font-size: 22px;
+    padding: 0px 20px;
+    margin: 2px;
+    font-family: 'Indie Flower', cursive;
+
+}
+#home:hover{
+    color: rgb(250, 121, 0);
+}
+#projetos1:hover{
+    color: rgb(250, 121, 0);
+}
+#contato1:hover{
+    color: rgb(250, 121, 0);
+}
+#ola {
+    color: rgb(250, 121, 0);
+    font-family: sans-serif, cursive;
+    margin: 10px 10px 5px 230px;
+    font-size: 60px;
+    
+}
+#um-pouco{
+    color: rgb(250, 121, 0);
+    font-family: sans-serif, cursive;
+    margin: 0px 30px 150px 200px;
+    font-size: 25px;
+   
+}
+#foto-eu { 
+    border-radius: 70%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    position: absolute;
+    opacity: 1;
+}
+.content:hover span{
+    border: 1px solid f00;
+    opacity:1;
+    -moz-opacity:1;
+    filter:alpha(opacity=0.5);
+    border-color: red
+}
+.content span{ /* Espaço da mensagem que ira aparecer */
+    width:  0px;
+    height: 0px;
+    margin-left: 70%;
+    margin-top: 100px;    
+    position: absolute;
+    font-family:  sans-serif, cursive;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.content span{
+    display: flex;
+    color: rgb(250, 121, 0);
+    -webkit-border-radius:0 0 0px 0px;
+    -moz-border-radius:0 0 0px 0px;
+    border-radius:0 0 0px 0px;
+    opacity:0;
+    -moz-opacity:0;
+    filter:alpha(opacity=0)
+    height: 0px;
+    width: 300px;
+    position: absolute;
+}
+#mar-1{
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+}
+#aluna {
+    color: #DB7093;
+    font-family: 'Boogaloo', cursive;
+    font-size: 20px;
+    margin: 10px 30px 20px 50px;
+    font-size: 26px;
+}
+.hab-tit {
+    font-family:  sans-serif, cursive;
+    font-size: 25px;
+    margin: 80px 10px 10px 70px;
+    color: rgb(250, 121, 0);    
+}
+.habilidades {
+    font-family:  sans-serif, cursive;
+    font-size: 24px;
+    margin: 5px 5px 0px 50px;
+}
+.hab-com {
+    font-family:sans-serif, cursive;
+    font-size: 25px;
+    margin: 80px 10px 10px 10px;
+    margin-left: 5%;
+    color:  rgb(250, 121, 0);
+}
+.habilidades-com {
+    font-family: 'Boogaloo', cursive;
+    font-size: 24px;
+    margin-left: 4%;  
+}
+#redes-sociais {
+    background-color: black;
+    color: blanchedalmond;
+    display: flex;
+    margin: 50px 0px 0px 0px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif, cursive;
+    align-items: center;
+}
+  i {  
+     font-size: 40px;
+     color: rgb(250, 121, 0);
+     margin-left: 0px;
+}
+i:hover {
+    color: #70DBDB
+}
+.redes-s {
+    margin-left: 170px;
+    margin-right: 0px;
+}
+.num-email {
+    margin: 10px;
+}
+.icons{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.icons-1 a {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 3px;
+}
