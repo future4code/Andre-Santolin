@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "212c0756-bfc1-4966-8cc6-a88b62ec02ba",
+		"_postman_id": "3f3284c5-0776-4f04-adb9-ee9a9b32a8cc",
 		"name": "Labefy copy",
 		"description": "## Descrição\n</br>Esta API gerencia playlists e músicas.\n```\n\tFeito pela Labenu. Todos os direitos reservados\n```\n\n## Instruções gerais.\n\n**Autenticação**\n\nToda requisição deve ter uma identificação de quem está fazendo a requisição. Ela deve ser enviada por meio do header `Authorization`, da seguinte forma:\n\n`Authorization: \"nome-sobrenome-turma\"`\n\nPor exemplo, se meu nome é Bob Marley e eu sou da turma Newton, o header deve ser:\n\n`Authorization: \"bob-marley-newton\"`",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
@@ -13,7 +13,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "",
+						"value": "andre-santolin-cruz",
 						"type": "text"
 					}
 				],
@@ -42,7 +42,7 @@
 					{
 						"key": "Authorization",
 						"type": "text",
-						"value": ""
+						"value": "andre-santolin-cruz"
 					}
 				],
 				"url": {
@@ -77,7 +77,7 @@
 					{
 						"key": "Authorization",
 						"type": "text",
-						"value": ""
+						"value": "andre-santolin-cruz"
 					}
 				],
 				"url": {
@@ -115,13 +115,13 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "",
+						"value": "andre-santolin-cruz",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"name\": \"string\"\n}",
+					"raw": "{\n\t\"name\": \"playlist3\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -163,7 +163,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"name\": \"playlist-name\"\n}",
+							"raw": "{\n\t\"name\": \"string\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -189,14 +189,14 @@
 			]
 		},
 		{
-			"name": "addTrackToPlaylist",
+			"name": "playlist1",
 			"request": {
 				"method": "POST",
 				"header": [
 					{
 						"key": "Authorization",
 						"type": "text",
-						"value": "Michelle-Louzada-Jackson"
+						"value": "andre-santolin-cruz"
 					}
 				],
 				"body": {
