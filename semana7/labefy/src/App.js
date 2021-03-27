@@ -5,9 +5,44 @@ import SearchPlaylist from './components/SearchPlaylist'
 
 const All = styled.div `
   text-align: center;
-  background-color: black;
+  background-color: blueviolet;
   color: white;
   width: 100vw;
   height: 100vh;
 `
+export default class App extends React.Component {
+  state = {
+    pagePlaylist: false,
+    pageCreatePlaylist: true,
+  }
+  
+  onClickListPage = () => {
+    this.setState({
+      pagePlaylist: !false,
+      pageCreatePlaylist: !true,
+    })
+  }
+  onClickCreatePage = () => {
+    this.setState({
+      pagePlaylist: false,
+      pageCreatePlaylist: true,
+    })
+  }
+  render(){
+    const pages = () => {
+      if (this.state.pageCreatePlaylist){
+        return <AddPlaylist onClickListPage={this.onClickListPage}/>
+      }
+      if (this.state.pagePlaylist){
+        return <SearchPlaylist onClickCreatePage={this.onClickCreatePage} />
+      }
+    }
+    
 
+    return (
+      <All>
+        {pages()}
+      </All>
+    )
+  }
+}
